@@ -13,6 +13,9 @@ import Theme from "./components/theme/Theme";
 import { motion } from "framer-motion";
 
 const App = () => {
+  const upTop = ()=>{
+    window.scrollTo({left:0,top:0,behavior:"smooth"})
+  }
   const [expandNav, setExpandNav] = useState();
   return (
     <div>
@@ -47,7 +50,7 @@ const App = () => {
               <TabList>
                 {TabsSwitches.map((tabItem) => {
                   return (
-                    <Tab key={tabItem.id}>
+                    <Tab key={tabItem.id} onClick={upTop}>
                       <p className="m-0">{tabItem.icon}</p>
                       <small>{tabItem.name}</small>
                     </Tab>
