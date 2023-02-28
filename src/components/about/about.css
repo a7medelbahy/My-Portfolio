@@ -1,0 +1,88 @@
+.about .summary p {
+  color: var(--main-color);
+}
+.about .personal .personal-img img {
+  border-radius: 25px 25px 0 32px;
+  /* height: 400px; */
+  z-index: 2;
+  -webkit-border-radius: 25px 25px 0 32px;
+  -moz-border-radius: 25px 25px 0 32px;
+  -ms-border-radius: 25px 25px 0 32px;
+  -o-border-radius: 25px 25px 0 32px;
+  position: relative;
+}
+.about .personal .personal-img::after {
+  content: "";
+  position: absolute;
+  background-color: var(--outer-background);
+  border: 1px solid var(--primary-color);
+  border-radius: 25px 25px 0 32px;
+  -webkit-border-radius: 25px 25px 0 32px;
+  -moz-border-radius: 25px 25px 0 32px;
+  -ms-border-radius: 25px 25px 0 32px;
+  -o-border-radius: 25px 25px 0 32px;
+  top: -20px;
+  right: -20px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.about .personal .info small {
+  color: var(--secondary-color);
+}
+.about .personal .info p {
+  color: var(--main-color);
+}
+.about .stats .stat-icon {
+  width: 50px;
+}
+.about .stats .stat-info h4 {
+  color: var(--main-color);
+}
+.about .stats .stat-info p {
+  color: var(--secondary-color);
+}
+.swiper .swiper-pagination-bullet {
+  background-color: var(--secondary-color);
+  width: 10px;
+  height: 10px;
+}
+.swiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: var(--primary-color);
+}
+.about .testi-box {
+  position: relative;
+  padding-top: 3rem;
+}
+.about .testi-box .testi-box-item {
+  background-color: var(--outer-background);
+}
+.about .testi-box .testi-img {
+  position: relative;
+  border-radius: 50%;
+  padding: 10px;
+  margin-top: -70px;
+  background-color: var(--inner-background);
+  width: 110px;
+  height: 110px;
+}
+.about .testi-box .testi-img img {
+  position: relative;
+  z-index: 2;
+  padding: 3px;
+  border: 1px solid var(--primary-color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.about .testi-box .testi {
+  color: var(--secondary-color);
+}
+.about .testi-box .testi-info {
+  color: var(--main-color);
+}
+.about .testi-box .testi-info small {
+  color: var(--secondary-color);
+}

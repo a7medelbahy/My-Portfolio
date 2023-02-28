@@ -1,0 +1,89 @@
+.services .service-box {
+  border: 1px solid var(--secondary-color);
+  height: 250px;
+  position: relative;
+  box-shadow: 0px 0px 3px var(--primary-color);
+  background-color: var(--outer-background);
+}
+.services .service-box h2 {
+  color: var(--secondary-color);
+}
+.services .service-box h4 {
+  color: var(--main-color);
+}
+.services .service-box .service-info {
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  height: 100%;
+  width: 100%;
+  transition: var(--main-transition);
+  color: var(--main-color);
+  background-color: var(--primary-color);
+}
+.services .service-box:hover .service-info {
+  bottom: 0;
+}
+
+.plan-box {
+  box-shadow: 0px 0px 5px var(--secondary-color);
+  transition: var(--main-transition);
+}
+.plan-box:hover {
+  box-shadow: 0px 0px 5px var(--primary-color);
+}
+.plan-box .price-box {
+  background-color: var(--primary-color);
+  width: 100%;
+}
+.plan-box .price-box h4 {
+  letter-spacing: 3px;
+}
+.plan-box .price-box p {
+  color: var(--main-color);
+  font-size: 28px;
+}
+.plan-box .price-box sup,
+sub {
+  color: #00ff08;
+  font-size: 20px;
+}
+.plan-box .price-box h3 {
+  width: 60px;
+  height: 60px;
+  background-color: var(--primary-color);
+  transition: var(--main-transition);
+}
+.plan-box .price-box h3 i {
+  color: var(--secondary-color);
+  font-size: 24px;
+  transition: var(--main-transition);
+  transform: scale(1);
+}
+.plan-box:hover .price-box h3 {
+  box-shadow: 0px 0px 5px 2px var(--secondary-color);
+}
+.plan-box:hover .price-box h3 i {
+  color: var(--main-color);
+  animation: planIcon 1s linear infinite;
+}
+@keyframes planIcon {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+.plan-box .plan-features li {
+  border-bottom: 1px solid var(--primary-color);
+  color: var(--secondary-color);
+}
+.plan-box .main-btn {
+  transform: translateX(-77%);
+  -webkit-transform: translateX(-77%);
+  -moz-transform: translateX(-77%);
+  -ms-transform: translateX(-77%);
+  -o-transform: translateX(-77%);
+}

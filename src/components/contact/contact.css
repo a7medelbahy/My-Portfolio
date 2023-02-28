@@ -1,0 +1,38 @@
+.contact-info .introduction h4 {
+  color: var(--main-color);
+}
+.contact-info .introduction p {
+  color: var(--secondary-color);
+}
+.contact-box .info-icon {
+  font-size: 24px;
+  color: var(--primary-color);
+}
+.contact-info .contact-box .info-data {
+  color: var(--main-color);
+}
+.contact-info .contact-box .info-data a {
+  color: var(--secondary-color);
+  transition: var(--main-transition);
+}
+.contact-info .contact-box .info-data a:hover {
+  color: var(--main-color);
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  background-color: var(--outer-background);
+  color: var(--main-color);
+  box-shadow: 0px 0px 5px var(--secondary-color);
+}
+.contact-form form input:focus,
+.contact-form form textarea:focus {
+  outline: 1px solid var(--primary-color);
+}
+.contact-form form input::placeholder,
+.contact-form form textarea::placeholder {
+  color: var(--secondary-color);
+}
+.contact-form form textarea {
+  resize: none;
+}
