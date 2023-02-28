@@ -43,7 +43,7 @@ const ProjectBox = (props) => {
             >
               <span className="btn-name">Demo</span>
               <span className="btn-icon">
-                <i className="fa-solid fa-laptop-code"></i>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </span>
             </a>
           </div>

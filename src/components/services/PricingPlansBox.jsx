@@ -32,7 +32,7 @@ const PricingPlansBox = (props) => {
         <button className="main-btn my-4">
           <span className="btn-name">Choose Plan</span>
           <span className="btn-icon">
-            <i className="fa-solid fa-hand-holding-heart"></i>
+          <i class="fa-solid fa-handshake-simple"></i>
           </span>
         </button>
       </div>

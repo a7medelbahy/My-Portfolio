@@ -45,7 +45,7 @@ const App = () => {
                     alt="nav img"
                   />
                 </div>
-                <p className="nav-name">A.ELbahy</p>
+                <p className="nav-name fw-bold">A.ELbahy</p>
               </div>
               <TabList>
                 {TabsSwitches.map((tabItem) => {

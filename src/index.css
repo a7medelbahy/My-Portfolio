@@ -98,6 +98,7 @@ body, #root {
   -moz-transition: var(--main-transition);
   -ms-transition: var(--main-transition);
   -o-transition: var(--main-transition);
+  font-weight: bold;
 }
 .react-tabs__tab--selected {
   background: none !important;

@@ -59,7 +59,7 @@ export const SocialItems = [
   {
     id: 5,
     icon: <i className="fa-brands fa-linkedin"></i>,
-    link: "https://www.linkedin.com/in/ahmed-elbahy-9383a2215/",
+    link: "https://www.linkedin.com/in/a7med-elbahy/",
     color: "#0a66c2",
   },
   {
@@ -127,25 +127,25 @@ export const StaticsAbout = [
     id: 1,
     num: "+1",
     title: "Years Experience",
-    icon: require("./assets/experience.png"),
+    icon: <i class="fs-1 fa-solid fa-business-time"></i>,
   },
   {
     id: 2,
     num: 10,
     title: "Completed Projects",
-    icon: require("./assets/complete.png"),
+    icon: <i class="fs-1 fa-solid fa-clipboard-check"></i>,
   },
   {
     id: 3,
     num: 100,
     title: "Happy Clients",
-    icon: require("./assets/customer.png"),
+    icon: <i className="fs-1 fa-solid fa-users"></i>,
   },
   {
     id: 4,
     num: 6,
     title: "Awards Won",
-    icon: require("./assets/awards.png"),
+    icon: <i className="fs-1 fa-solid fa-award"></i>,
   },
 ];
 export const TestimonialsData = [
@@ -312,7 +312,7 @@ export const SkillsData = [
   {
     id: 9,
     title: "GIT & GITHUB",
-    rate: 95,
+    rate: 90,
   },
 ];
 export const SoftSkillsData = [
@@ -325,40 +325,40 @@ export const SoftSkillsData = [
     title: "Excellent English",
   },
   {
-    id: 7,
+    id: 3,
     title: "Time Management",
   },
   {
-    id: 8,
+    id: 4,
     title: "Problem Solving",
   },
   {
-    id: 10,
+    id: 5,
     title: "Microsoft Office",
   },
   {
-    id: 11,
+    id: 6,
     title: "Events Planning",
   },
   {
-    id: 3,
+    id: 7,
     title: "Communication",
   },
   {
-    id: 6,
+    id: 8,
     title: "Presentation",
   },
   {
-    id: 4,
+    id: 9,
     title: "Teamwork",
   },
   {
-    id: 5,
+    id: 10,
     title: "Leadership",
   },
 
   {
-    id: 9,
+    id: 11,
     title: "Research",
   },
   {
